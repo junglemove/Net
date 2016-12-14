@@ -1,4 +1,9 @@
-/******/
+/**********************************/
+                hello.js
+/**********************************/
+const net = require('net');
+
+dans le terminal(cmd):
 Bienvenue dans le client Telnet Microsoft
 
 Le caractère d'échappement est 'CTRL+$'
@@ -29,3 +34,9 @@ Le caractère d'échappement est 'CTRL+$'
 Microsoft Telnet> open localhost 1530
 Connexion à localhost...
 Microsoft Telnet> quit
+
+/**********************************/
+           hello-http.js
+/**********************************/
+const http = require('http');
+http://localhost:8080/ => print HELLO in browser
