@@ -1,0 +1,31 @@
+/******/
+Bienvenue dans le client Telnet Microsoft
+
+Le caractère d'échappement est 'CTRL+$'
+
+Microsoft Telnet> help
+
+Les commandes peuvent être abrégées. Les commandes prises en charge sont :
+
+c   - close               ferme la connexion en cours
+d   - display             affiche les paramètres d'opération
+o   - open NomHôte [Port] Se connecte à l'hôte nommé (port 23 par défaut)
+q   - quit                quitte telnet
+set - set                 définit les options ('set ?' pour afficher la liste)
+sen - send                envoie les chaînes au serveur
+st  - status              affiche les informations d'état
+u   - unset               annule les options ('unset ?' pour afficher la liste)
+?/h - help                affiche des informations d'aide
+Microsoft Telnet> open localhost 1530
+Connexion à localhost...
+
+/******/
+Deconnection de DOS telnet:
+
+Bienvenue dans le client Telnet Microsoft
+
+Le caractère d'échappement est 'CTRL+$'
+
+Microsoft Telnet> open localhost 1530
+Connexion à localhost...
+Microsoft Telnet> quit
